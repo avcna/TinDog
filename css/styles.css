@@ -1,0 +1,172 @@
+#first {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#features {
+  padding: 10rem 10rem 3rem 10rem;
+  position: relative;
+  z-index: 1;
+}
+
+.feature {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.f-icon {
+  font-size: 3.5rem;
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+
+.f-icon:hover {
+  color: #ff4c68;
+}
+
+.p-feat {
+  color: #8f8f8f;
+}
+
+.pad {
+  margin-bottom: 75px;
+  line-height: 1.5;
+  padding: 0 4rem;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.carousel-item {
+  padding: 9rem 14rem 5rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.dog-img {
+  width: 115px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+#cta {
+  padding: 6% 19%;
+}
+
+#h3cta {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 6% 0;
+}
+
+.ic-footer {
+  margin: 0 10px 20px;
+}
+
+#cpr {
+  color: gray;
+}
+.colored{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white{
+  background-color: white;
+}
+
+@media (max-width: 991px) {
+  #features {
+    padding: 10rem 5rem 3rem;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 1.5;
+  }
+
+  .carousel-item {
+    padding: 9rem 5rem 5rem;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #first {
+    text-align: center;
+  }
+
+  #h3cta {
+    font-size: 2.2rem;
+  }
+}
